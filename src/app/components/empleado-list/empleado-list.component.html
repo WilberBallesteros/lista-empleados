@@ -29,12 +29,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Wilber</td>
-            <td>Ballesteros</td>
-            <td>Masculino</td>
-            <td>2.000.000</td>
+          <tr *ngFor="let empleado of listEmpleados">
+            <td>{{ empleado.identificador }}</td>
+            <td>{{ empleado.nombre }}</td>
+            <td>{{ empleado.apellido }}</td>
+            <td>{{ empleado.sexo }}</td>
+            <td>{{ empleado.salario | currency }}</td>
           </tr>
         </tbody>
       </table>
