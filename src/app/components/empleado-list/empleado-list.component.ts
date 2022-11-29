@@ -15,6 +15,7 @@ export class EmpleadoListComponent implements OnInit {
     {identificador: 4, nombre: 'Rodolfo', apellido: 'Santamaria', sexo: 'Masculino', salario: 1100000},
     {identificador: 5, nombre: 'Andres', apellido: 'Rojas', sexo: 'Masculino', salario: 5000000},
     {identificador: 6, nombre: 'Diego', apellido: 'Rivera', sexo: 'Masculino', salario: 1200000},
+    {identificador: 7, nombre: 'Luz', apellido: 'Calderón', sexo: 'Femenino', salario: 900000},
 
   ]
 
